@@ -1,0 +1,14 @@
+dbt_project_01:
+  outputs:
+    dev:
+      dataset: DBT
+      job_execution_timeout_seconds: 1
+      job_retries: 1
+      keyfile: /home/leandro/.dbt/dbt-lab-441616-4bb922095641.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: dbt-lab-441616
+      threads: 4
+      type: bigquery
+  target: dev
